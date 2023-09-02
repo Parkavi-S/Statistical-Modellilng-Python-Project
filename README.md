@@ -1,7 +1,7 @@
 # Final-Project-Statistical-Modelling-with-Python
 
 ## Project/Goals
-(fill in your description and goals here)
+The primary goal of this project is to perform Statistical Modelling using Python by extracting bike data from CityBikes API service for any city of our choice and retrieve different point of interests close to these bike stations retrieved using the CityBikes API. For retrieving the POI data we would collect data from the FourSquare API and Yelp API. This project also involves comparison between the above mentioned API's from which more valuable / meaningful data can be retrieved. Also, come up with a Statistical Model to intrepret the retrieved results. The purpose behind this project is to put our best ability of Python learning, understanding of the Pandas framework , plotting using Python and have hands on the statistical modelling python packages to make ourselves familiar
 
 ## Process
 ### (your step 1)

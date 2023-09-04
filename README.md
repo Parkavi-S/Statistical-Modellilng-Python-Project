@@ -12,11 +12,16 @@ Also, ensured the correct naming standards are followed upon for the repository 
 
 ### Explore the CityBike / foursquare/ yelp API's
 During this process, I did explore the citybike API/ foursquare API and Yelp API using Postman. I did navigate to the citybike API and did hit the API endpoints both:
-**http://api.citybik.es/v2/networks** and **http://api.citybik.es/v2/networks/networkid**
+**http://api.citybik.es/v2/networks** and **http://api.citybik.es/v2/networks/networkid**.
 After this initial exploration of the API, I did finalize my city of exploration to be Vancouver Canada and cover the POI's within 1000 mile radius from the mentioned city
 
 ### citybike API data 
-
+As part of this I have to populate the citybike.ipynb notebook. I did hit the second API endpoint which was specific with the networkid as below:
+http://api.citybik.es/v2/networks/mobibikes - mobibikes was the name of the station in Vancouver
+The output from the API would be stored in the format of JSON.
+Also, as next step, I did parse the JSON output to input the same into Pandas dataframe. Most important part of this parsing is, we need to figure out which are the essential fields that we need to parse
+from the JSON to our dataframe. I did spend a quality time, as this would be the base for my entire project, as part of the next steps, we need to join the dataframes of citybike with the POI that we would
+be retrieving from following foursquare and yelp API's
 
 ### foursquare API data
 

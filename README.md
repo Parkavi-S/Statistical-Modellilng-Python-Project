@@ -6,10 +6,17 @@ The primary goal of this project is to perform Statistical Modelling using Pytho
 ## Process
 
 ### Configuration and Initial Set up
+To begin with I took a clone of the **Statistical-Modelling-with-Python** repository from LHL's git repos and started familiarizing on the assignments.md file
+Also, ensured the correct naming standards are followed upon for the repository and also frequent code commits are made for avaoiding code loss
+
 
 ### Explore the CityBike / foursquare/ yelp API's
+During this process, I did explore the citybike API/ foursquare API and Yelp API using Postman. I did navigate to the citybike API and did hit the API endpoints both:
+**http://api.citybik.es/v2/networks** and **http://api.citybik.es/v2/networks/<network id>**
+After this initial exploration of the API, I did finalize my city of exploration to be Vancouver Canada and cover the POI's within 1000 mile radius from the mentioned city
 
 ### citybike API data 
+
 
 ### foursquare API data
 
